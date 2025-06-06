@@ -1,40 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Meu portfólio</title>
 </head>
- <body>
-  <header class="container text-conter">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stickpng.com%2Fpt-br%2Fimg%2Froupas%2Fdesenhos-animados%2Fpocoyo%2Fpato-o-pato&psig=AOvVaw1E9ufxqd63LrLa951scqKx&ust=1746747427352000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOix3bHDko0DFQAAAAAdAAAAABAE" alt="Maria Paula Pacheco" srcset="">
-    <p>Eu sou Maria_Paula</p>
-    <h1>Eu ensino Matemática</h1>
-    <p>Sou Estudante do ensino médio. Ensino aqueles que tenham o interesse em aprender mateática. Ensino também programação Veja os projetos que já desenvolvi! </p>
-    <p>Minhas habilidades</p>
-    <div>
+
+<body>
+    <header class="container text-conter">
+        <img src="\Maria_Paula01\Imagens\pato.donald.png" alt="avatar do Maria_Paula" class="rounded-circle" width="150"
+            height="150" srcset="">
+        <p class="lead">Eu sou Maria_Paula</p>
+        <h1>Eu ensino Matemática</h1>
+        <p>Sou Estudante do ensino médio. Ensino aqueles que tenham o interesse em aprender mateática. Ensino também
+            programação Veja os projetos que já desenvolvi! </p>
+        <p>Minhas habilidades</p>
+        <div>
             <p class="badge bg-secondary">HTML</p>
             <p class="badge bg-secondary">CSS</p>
             <p class="badge bg-secondary">JavaScript</p>
             <p class="badge bg-secondary">Scratch</p>
             <p class="badge bg-secondary">Edição de Vídeo</p>
-    </div>
-  </header>
-      <main class="container">
-          <h2>Meus projetos</h2>
+        </div>
+    </header>
+    <main class="container">
+        <h2>Meus projetos</h2>
         <div class="row">
+
+            <!--Projeto 1-->
             <div class="col-md-4">
                 <div class="card" style="width: 18rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="\Maria_Paula01\Imagens\The_Last_of_Us.png" class="card-img-top"
+                        alt="Imagem do projeto de biblioteca virtual">
                     <div class="card-body">
-                        <h5 class="card-title">Minha Bi</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Minha Biblioteca: Uma Webpage Criativa</h5>
+                        <p class="card-text">
+                            Este projeto é uma página web que apresenta um dos meus jogos favoritos,
+                            incluindo informações sobre os criadores, datas de lançamento e links para
+                            abaixar ou comprar Steam. A página foi criada com CSS para uma visão agradável e uso de
+                            fontes
+                            externas do Google Fonts.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal"
+                            data-bs-target="#modal1">Confira essa experiência</button>
                     </div>
                 </div>
             </div>
         </div>
-     </main>
- </body>
+
+        <!--Projeto 2-->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="\Maria_Paula01\Imagens\o_incrível_mundo_de_gumball.webp" class="card-img-top"
+                    alt="imagem do projeto de biblioteca virtual">
+                <div class="card-body">
+                    <h5 class="card-title">Descobrindo novidades: Uma Aventura sobre animações</h5>
+                    <p class="card-text">
+                        Neste projeto, se encontra um objetivo baseado em divertir todo mundo com
+                        vários tipos de animações em todos os episódios, obtendo os sentimentos dos fãs, mas para
+                        aqueles que já assistiram.
+                    </p>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Confira
+                        essa experiência</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Projeto 3-->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="\Maria_Paula01\Imagens\livro_cálculo.1.jpg" class="card-img-top"
+                    alt="imagem do projeto de biblioteca virtual">
+                <div class="card-body">
+                    <h5 class="card-title">Tenha Um Otímo Conhecimento Matematico!</h5>
+                    <p class="card-text">
+                        E neste projeto irá apresentar e falar resumidamente sobre o livro mais
+                        querido por todos, os matematicos e também por aqueles que querer saber sobre tudo.
+                        Um livro cheio de contas, calculos interesantes e conhecimentos, juntando a Física.
+                    </p>
+                    <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Confira
+                        essa experiência</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--Modal 1-->
+    <div class="modal" id="#modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Criativa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> Este projeto é uma página web que apresenta um dos meus jogos favoritos,
+                        incluindo informações sobre os criadores, datas de lançamento e links para
+                        abaixar ou comprar Steam. A página foi criada com CSS para uma visão agradável e uso de fontes
+                        externas do Google Fonts.</p>
+                    <img src="\Maria_Paula01\Imagens\The_Last_of_Us.png" class="card-img-top"
+                        alt="Imagem do projeto de biblioteca virtual">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver projeto ao vivo</a>
+                    <a href="">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 2-->
+    <div class="modal" id="#modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Descobrindo novidades: Uma Aventura sobre animações</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Neste projeto, se encontra um objetivo baseado em divertir todo mundo com
+                        vários tipos de animações em todos os episódios, obtendo os sentimentos dos fãs, mas para
+                        aqueles que já assistiram.</p>
+                    <img src="\Maria_Paula01\Imagens\o_incrível_mundo_de_gumball.webp" class="card-img-top"
+                        alt="Imagem do projeto de biblioteca virtual">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver projeto ao vivo</a>
+                    <a href="">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal 3-->
+    <div class="modal" id="#modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Tenha Um Otímo Conhecimento Matematico!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>E neste projeto irá apresentar e falar resumidamente sobre o livro mais
+                        querido por todos, os matematicos e também por aqueles que querer saber sobre tudo.
+                        Um livro cheio de contas, calculos interesantes e conhecimentos, juntando a Física. </p>
+                    <img src="\Maria_Paula01\Imagens\livro_cálculo.1.jpg" class="card-img-top"
+                        alt="Imagem do projeto de biblioteca virtual">
+                </div>
+                <div class="modal-footer">
+                    <a href="">Ver projeto ao vivo</a>
+                    <a href="">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <a href="https://github.com/natmhdsdo">GitHub</a>
+            <a href="mailto:00001107782880sp@al.educacao.sp.gov.br">Enviar e-mail</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Maria_Paula</p>
+    </footer>
+</body>
+
 </html>
